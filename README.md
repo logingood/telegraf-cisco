@@ -9,6 +9,7 @@ Based on Dockerfile and scripts from [TIG Stack](https://github.com/matisku/tig-
 # Usage
 
 ```
+git clone git@github.com:murat1985/telegraf-cisco.git
 docker build . -t mytelegraf
 docker run -dti -n mytelegraf mytelegraf:local
 ```
